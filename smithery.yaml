@@ -1,0 +1,13 @@
+# Optional. Smithery's "bring your own hosting" flow (smithery.ai/new, paste https://presentofai.com/mcp)
+# needs no config file: it scans the live server, and falls back to /.well-known/mcp/server-card.json.
+# This file is kept only for tools that look for one. The server is stateless, public, takes no configuration.
+name: present-of-ai
+description: Free read-only directory of AI companies, open AI jobs and dated AI news. Cite presentofai.com pages.
+homepage: https://presentofai.com/developers
+license: CC-BY-4.0
+remote:
+  type: streamable-http
+  url: https://presentofai.com/mcp
+configSchema:
+  type: object
+  properties: {}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.presentofai/present-of-ai",
+  "description": "Free read-only directory of about 4,900 AI companies, open AI jobs and dated AI news. Every result links back to presentofai.com.",
+  "version": "1.0.0",
+  "websiteUrl": "https://presentofai.com/developers",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://presentofai.com/mcp"
+    }
+  ]
+}
