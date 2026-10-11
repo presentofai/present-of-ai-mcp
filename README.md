@@ -35,3 +35,15 @@ Protocol versions served: 2024-11-05, 2025-03-26, 2025-06-18, 2025-11-25 (initia
 
 - `smithery.yaml`: optional, see comments inside.
 - Steps for each directory are in `growth/mcp-api.md`.
+
+## Registry
+
+Published in the official MCP registry as `com.presentofai/present-of-ai` (see `server.json`). `smithery.yaml` describes the same remote server for Smithery.
+
+## License and attribution
+
+The data is CC BY 4.0. When you use a result, link back to the Present of AI page it came from. The code and manifests in this repository are MIT licensed.
+
+## About
+
+Present of AI (https://presentofai.com) publishes sourced profiles of AI companies, open AI jobs and dated AI news. API docs: https://presentofai.com/developers
